@@ -40,7 +40,7 @@ build() {
 	patch -p1 -i ${srcdir}/rt3290sta_fix_64bit_3.8.patch
 	patch -p1 -i ${srcdir}/kernel_version_fix.patch --binary
 	patch -p1 -i ${srcdir}/3.14fix.patch
-	patch -p1 -i ${srcdir}/sta.patch
+	patch -p1 -i ${srcdir}/sta_fix.patch
 }
 
 package() {
